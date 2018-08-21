@@ -157,31 +157,7 @@ a{text-decoration: none;}
 
 
 }
-@font-face {
-    font-family: formata;
-    src: url(formata-bold.otf);
-}
-.title-font{
-  font-size: 60px;
-  font-family:Do Hyeon;
-  font-weight:bolder;
-  color: white;
-  letter-spacing: 2px;
-}
-.gradient-line{
-    margin: 0 0 20px 0;
-    display: block;
-    border: none;
-    height: 7px;
-    width: 200px;
-    background: #0071B9;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0), #0071B9, #75f7f9, #0071B9, rgba(0, 0, 0, 0));
-}
-.subtitle-font{
-  font-size: 20px;
-  font-family:Lemon;
-  color:white;
-}
+
 .title-date-font{
 
   font-family: Days One;
@@ -253,25 +229,6 @@ a{text-decoration: none;}
   }
 }
 @media only screen and (max-width: 600px){
-.title-font{
-  font-size: 30px;
-  white-space: nowrap;
- }
- .gradient-line{
-     margin: 0 0 10px;
-     height: 3px;
-     width: 100px;
- }
- .subtitle-font{
-   font-size: 13px;
- }
- .title-date-font{
-   font-size: 9px;
- }
- .register-link{
-
-   border: 1.5px solid white; }
-}
 
 
 .font1{
