@@ -3,9 +3,9 @@
 <head>
 <title>Tesseract 4.0</title>
     <meta charset="UTF-8">
-    <meta name="theme-color" content="#0d0d0d">
-    <meta name="msapplication-navbutton-color" content="#0d0d0d">
-    <meta name="apple-mobile-web-app-status-bar-style" content="#0d0d0d">
+    <meta name="theme-color" content="#262626">
+    <meta name="msapplication-navbutton-color" content="#262626">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#262626">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="w3.css">
@@ -27,7 +27,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway|Russo+One|Anton|Archivo+Black|Krona+OneOpen+Sans+Condensed|
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway|Russo+One|Anton|Archivo+Black|Krona+OneOpen+Sans+Condensed|Muli|
     Oswald|Veranda|Candal|Formata|Biryani|Poppins|Do+Hyeon|Jua|Palanquin+Dark|Merienda|Oleo+Script|Yeon+Sung|Lemon|Audiowide|Kanit">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
@@ -36,7 +36,7 @@
   <!-- Navbar (sit on top) -->
   <div class="w3-top">
   <div class="w3-bar menu-bar"  id="myNavbar" >
-      <a class="w3-bar-item w3-medium w3-hide-large w3-hide-medium w3-right" href="javascript:void(0);" onclick="toggleFunction(); myFunction2(this)" title="Toggle Navigation Menu">
+      <a class="w3-bar-item w3-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction(); myFunction2(this)" title="Toggle Navigation Menu">
         <div class="container">
   <div class="bar1"></div>
   <div class="bar2"></div>
@@ -45,30 +45,28 @@
       </a>
       <div class="w3-bar-item  w3-medium">
       <font class="font1">TESSERACT 4.0</font></div>
-      <div class="w3-right w3-small font2"  >
-      <a href="#home"  class="w3-bar-item w3-hide-small">HOME</a>
-      <a href="#about"   class="w3-bar-item  w3-hide-small "> ABOUT</a>
-      <a href="#speakers" class="w3-bar-item  w3-hide-small"> SPEAKERS</a>
-      <a href="#workshops" class="w3-bar-item   w3-hide-small">WORKSHOPS</a>
-      <a href="#workshops" class="w3-bar-item   w3-hide-small">SCHEDULE</a>
-      <a href="#gallery" class="w3-bar-item  w3-hide-small">GALLERY</a>
-      <a href="#contact" class="w3-bar-item  w3-hide-small"> CONTACT</a>
+      <div class="w3-right w3-small font2 w3-hide-medium w3-hide-small "  >
+      <a href="#home"  class="w3-bar-item ">HOME</a>
+      <a href="#about"   class="w3-bar-item "> ABOUT</a>
+      <a href="#speakers" class="w3-bar-item "> SPEAKERS</a>
+      <a href="#workshops" class="w3-bar-item">WORKSHOPS</a>
+      <a href="#workshops" class="w3-bar-item">SCHEDULE</a>
+      <a href="#gallery" class="w3-bar-item ">GALLERY</a>
+      <a href="#contact" class="w3-bar-item"> CONTACT</a>
     </div>
 
-
-      <!-- Navbar on small screens -->
-       <div id="navDemo" class="w3-bar-block w3-medium mobile-menu font3 w3-hide w3-white w3-text-black w3-hide-large w3-hide-medium" style="width:100%;" >
-         <a href="#home" class="w3-bar-item  w3-center active  w3-hover-text-red w3-hover-white  w3-padding-16 w3-button" onclick="toggleFunction()">HOME</a>
-         <a href="#about" class="w3-bar-item w3-center w3-hover-text-red w3-hover-white w3-padding-16 w3-button" onclick="toggleFunction()">ABOUT</a>
-         <a href="#speakers" class="w3-bar-item w3-center w3-hover-text-red w3-hover-white w3-padding-16 w3-button" onclick="toggleFunction()">SPEAKERS</a>
-         <a href="#workshops" class="w3-bar-item w3-center   w3-hover-text-red w3-hover-white w3-padding-16 w3-button" onclick="toggleFunction()">WORKSHOPS</a>
-         <a href="#workshops" class="w3-bar-item w3-center   w3-hover-text-red w3-hover-white w3-padding-16 w3-button" onclick="toggleFunction()">SCHEDULE</a>
-         <a href="#mob-gallery" class="w3-bar-item w3-center  w3-hover-text-red w3-hover-white w3-padding-16 w3-button" onclick="toggleFunction()">GALLERY</a>
-         <a href="#contact" class="w3-bar-item  w3-center  w3-hover-text-red w3-hover-white w3-padding-16 w3-button" onclick="toggleFunction()">CONTACT</a>
-       </div>
   </div>
 
-
+  <!-- Navbar on small screens -->
+   <div id="navDemo" class="w3-bar-block w3-medium mobile-menu font3 w3-hide w3-white w3-text-black w3-hide-large" style="width:100%;" >
+     <a href="#home" class="w3-bar-item  w3-center active  w3-hover-text-red w3-hover-white  w3-padding-16 w3-button" onclick="toggleFunction()">HOME</a>
+     <a href="#about" class="w3-bar-item w3-center w3-hover-text-red w3-hover-white w3-padding-16 w3-button" onclick="toggleFunction()">ABOUT</a>
+     <a href="#speakers" class="w3-bar-item w3-center w3-hover-text-red w3-hover-white w3-padding-16 w3-button" onclick="toggleFunction()">SPEAKERS</a>
+     <a href="#workshops" class="w3-bar-item w3-center   w3-hover-text-red w3-hover-white w3-padding-16 w3-button" onclick="toggleFunction()">WORKSHOPS</a>
+     <a href="#workshops" class="w3-bar-item w3-center   w3-hover-text-red w3-hover-white w3-padding-16 w3-button" onclick="toggleFunction()">SCHEDULE</a>
+     <a href="#mob-gallery" class="w3-bar-item w3-center  w3-hover-text-red w3-hover-white w3-padding-16 w3-button" onclick="toggleFunction()">GALLERY</a>
+     <a href="#contact" class="w3-bar-item  w3-center  w3-hover-text-red w3-hover-white w3-padding-16 w3-button" onclick="toggleFunction()">CONTACT</a>
+   </div>
   </div>
 
   <!-- Header with full-height image -->
@@ -84,8 +82,8 @@
        <!--<span class="title-font">TESSERACT 4.0</span>-->
        <!--<center><hr class="gradient-line"/><center>-->
        <!--<span class="subtitle-font">Experience the Best!!!</span><br>-->
-       <p class="title-date-font"><i class="fa fa-calendar"></i>&ensp;OCT 10 | 11 | 12</p></div><br>
-     </button><a href="#" class="w3-round-xxlarge w3-large register-link animatable fadeIn">REGISTER NOW</a></button>
+       <p class="title-date-font"><i class="fa fa-calendar"></i>&ensp;OCT 10 | 11 | 12</p></div><br><br>
+     <button class="w3-round-xxlarge w3-large register-link animatable fadeIn"><a href="#" >REGISTER NOW</a></button>
 
     </div>
   </header>
@@ -96,38 +94,38 @@
   <div class="w3-center w3-text-white"><h4><b>TESSERACT 4.0</b> WILL BE IN</h4></div><center><hr class="header_hr"/></center>
   <div class="w3-row-padding  w3-center">
     <div class="w3-col s6 m6 l3" style="margin-top:16px;">
-     <div class="w3-card countdown_font w3-padding-16 ">
-      <div class="w3-jumbo" id="days"></div>DAYS</div>
+     <div class="w3-card  w3-padding-16 ">
+      <div class="w3-jumbo countdown_font" id="days"></div><font class="countdown_font">DAYS</font></div>
     </div>
     <div class="w3-col s6 m6 l3" style="margin-top:16px;">
-      <div class=" w3-card countdown_font w3-padding-16  ">
-      <div class="w3-jumbo"  id="hours"></div>HOURS
+      <div class=" w3-card w3-padding-16  ">
+      <div class="w3-jumbo countdown_font"  id="hours"></div><font class="countdown_font">HOURS</font>
     </div></div>
     <div class="w3-col s6 m6 l3" style="margin-top:16px;">
-     <div class="w3-card countdown_font w3-padding-16 ">
-      <div class="w3-jumbo" id="minutes"></div>MINS</div>
+     <div class="w3-card  w3-padding-16 ">
+      <div class="w3-jumbo countdown_font" id="minutes"></div><font class="countdown_font">MINS</font></div>
     </div>
     <div class="w3-col s6 m6 l3" style="margin-top:16px;">
-      <div class="w3-card countdown_font w3-padding-16  ">
-      <div class="w3-jumbo"  id="seconds"></div>SECS
+      <div class="w3-card  w3-padding-16  ">
+      <div class="w3-jumbo countdown_font" id="seconds"></div><font class="countdown_font">SECS</font>
     </div></div>
   </div>
 </div>
 
 <!--ABOUT SECTION--->
-<div class="w3-container about_section w3-padding-32">
+<div class="w3-container about_section w3-padding-64">
   <div class="w3-row-padding">
     <div class="w3-col m12 l6  about_section_logo">
       <center><img src="logo1.png"  style="height:250px;width:250px;"></center>
     </div>
     <div class="w3-col w3-center m12 l6 ">
       <h3><b>ABOUT</b>&ensp;<font color="#ff6347">TESSERACT 4.0</font></h3>
-    <p style="color:#999999;">Don't miss this Conference and Opportunities</p>
+    <p style="color:#8c8c8c;">Don't miss this Conference and Opportunities</p>
       <center><hr class="header_hr"/></center>
-      <p>Here is the content.about section is here.Here is the content.about section is here.Here is the content.about section is here.Here is the content.about section is here.Here is the content.about section is here.Here is the content.about section is here.
+      <p class="w3-large"style="color: #a6a6a6;font-family:Muli;">Here is the content.about section is here.Here is the content.about section is here.Here is the content.about section is here.Here is the content.about section is here.Here is the content.about section is here.Here is the content.about section is here.
         Here is the content.about section is here.Here is the content.about section is here.Here is the content.about section is here.Here is the content.about section is here.Here is the content.about section is here.Here is the content.about section is here.
-        Here is the content.about section is here.Here is the content.about section is here.Here is the content.about section is here.Here is the content.about section is here.</p>
-      <center></button><a href="#" class="w3-round-xxlarge w3-small brochure_link" style="white-space:nowrap;">DOWNLOAD BROCHURE</a></button></center>
+        Here is the content.about section is here.Here is the content.about section is here.Here is the content.about section is here.Here is the content.about section is here.</p><br>
+      <center><button class="w3-round-xxlarge w3-small brochure_link"><a href="#"  style="white-space:nowrap;">DOWNLOAD BROCHURE</a></button></center>
     </div>
   </div>
 </div>
@@ -315,9 +313,9 @@ window.onscroll = function() {myFunction()};
 function myFunction() {
     var navbar = document.getElementById("myNavbar");
     if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-      navbar.className = "w3-bar w3-white padding-scroll";
+      navbar.className = "w3-bar  w3-white w3-card-2 padding-scroll";
     } else {
-        navbar.className = navbar.className.replace(" w3-white  padding-scroll", "");
+        navbar.className = navbar.className.replace(" w3-white padding-scroll", "");
         navbar.className = " menu-bar w3-bar";
 
     }
@@ -330,7 +328,7 @@ const second = 1000,
       hour = minute * 60,
       day = hour * 24;
 
-let countDown = new Date('Oct 10, 2018 00:00:00').getTime(),
+let countDown = new Date('Oct 30, 2018 00:00:00').getTime(),
     x = setInterval(function() {
 
       let now = new Date().getTime(),
