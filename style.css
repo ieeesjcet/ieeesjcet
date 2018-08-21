@@ -101,12 +101,6 @@ a{text-decoration: none;}
 
 
 @media only screen and (max-width: 600px){
-  .brochure_link{
-    background:#ff5b32;
-    border:none;
-    color: white;
-
-  }
   .menu-bar{
     padding-top:10px;
     padding-bottom: 10px;
