@@ -13,8 +13,22 @@
 
 }
 
+
 .ieee_links:hover{
   text-decoration: underline;
+}
+.edit{
+  background:white;
+  color: #262626;
+  border-top: 1px solid #666666;
+}
+@media only screen and (max-width: 900px){
+
+.edit{
+  background: #333333;
+  color: white;
+  border-top: 1px solid #666666;
+}
 }
 @media only screen and (max-width: 900px){
 
@@ -27,6 +41,27 @@
 .animate-top{position:relative;animation:animatetop ease 0.7s;z-index: -1;}
 @keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:0.5} to{top:50;opacity:1}
 }
+.bar-item{
+
+
+/*   border-radius: 5px; */
+  text-decoration: none;
+
+  /* Set up the hover */
+  /* If you aren't using autoprefix, remember to prefix the gradient for other browsers */
+  background-image: linear-gradient(#ff3814, #FF6347), linear-gradient(transparent, transparent);
+  background-size: 0 4px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  padding: 10px;
+  transition: all .4s ease-out;
+}
+
+.bar-item:hover {
+  /* The following line makes the underline only as wide as the text */
+  /* background-size: calc(100% - 2em) 5px, auto; */
+  background-size: 70% 3px, auto;
+}
 
 .about_ieee{padding-left: 70px;
   padding-right: 70px;
@@ -34,7 +69,6 @@
   text-align: center;
   letter-spacing: 2px;
   font-family:sans-serif;
-
   font-size: 15px;
 
 }
@@ -53,17 +87,17 @@
 .benefit_section{
   padding-left:120px;
   padding-right: 120px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .benefit_icon1{
   background: url("group.png");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 90px 90px;
-  height: 140px;
-  width: 140px;
+  background-size: 70px 70px;
+  height: 120px;
+  width: 120px;
   border:1px solid #009EEE;
   border-radius: 50%;
   transition: transform ease 1s ;
@@ -79,9 +113,9 @@
   background: url("atom.png");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 90px 90px;
-  height: 140px;
-  width: 140px;
+  background-size: 70px 70px;
+  height: 120px;
+  width: 120px;
   border:1px solid #009EEE;
   border-radius: 50%;
   transition: transform ease 1s ;
@@ -97,9 +131,9 @@
   background: url("idea.png");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 90px 90px;
-  height: 140px;
-  width: 140px;
+  background-size: 70px 70px;
+  height: 120px;
+  width: 120px;
   border:1px solid #009EEE;
   border-radius: 50%;
   transition: transform ease 1s ;
@@ -115,9 +149,9 @@
   background: url("mag.png");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 90px 90px;
-  height: 140px;
-  width: 140px;
+  background-size: 70px 70px;
+  height: 120px;
+  width: 120px;
   border:1px solid #009EEE;
   border-radius: 50%;
   transition: transform ease 1s ;
@@ -160,6 +194,7 @@
 @media only screen and (max-width: 900px){
 .carousel-cell {
   width: 90%;
+  height: auto;
 
 }
 .societies_tag{
@@ -168,3 +203,28 @@
 }
 
 /*IEEE SOCITIES SECTION Ends Here*/
+
+/*EXECOM SECTION Starts Here*/
+.execom_section{
+  padding-top: 32px;
+  padding-bottom: 75px;
+}
+.execom-carousel {
+  background:white;
+  width: 100%;
+}
+
+.execom-carousel-cell {
+  width: 25%;
+  height: auto;
+  margin-right: 10px;
+  background: white;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 900px){
+  .execom-carousel-cell {
+    width: 100%;
+  }
+}
+
+/*EXECOM SECTION Ends Here*/
